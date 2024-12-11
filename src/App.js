@@ -11,7 +11,7 @@ const App = () => {
       const data = await res.json();
       setEmployees(data);
     } catch (error) {
-      alert("Error in fetching employees data");
+      alert("failed to fetch data");
     }
   };
 
