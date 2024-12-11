@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+  margin: 2rem 0;
+}
+.table {
+  width: 90%;
+  border-bottom: 2px solid #009879;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  border-collapse: collapse;
+  box-shadow: 5px -5px 5px lightgray, -5px -5px 5px lightgray;
+}
+thead {
+  background-color: #009879;
+  color: white;
+}
+.row {
+  border-bottom: 1px solid lightgray;
+}
+td {
+  padding: 0.5rem;
+}
+.btns {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  gap: 1rem;
+}
+
+.page {
+  background-color: #009879;
+  padding: 0.2rem 0.5rem;
+  color: white;
+  border-radius: 5px;
+}
+
+.btns button {
+  background-color: #009879;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
